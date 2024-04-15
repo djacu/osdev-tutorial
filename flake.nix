@@ -33,7 +33,7 @@
 
         nativeBuildInputs = [
           pkgsCross.binutils-unwrapped
-          pkgsCross.libgcc
+          pkgsCross.gcc11
         ];
 
         buildPhase = ''
